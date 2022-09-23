@@ -1,2 +1,2 @@
 #!/bin/bash
-grep .js $pwd | rm
+find . -type f -name '*.js' -delete
